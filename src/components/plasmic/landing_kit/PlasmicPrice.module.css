@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.box__qtNb {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+}
+.slotSlot {
+  font-size: 32px;
+  color: #000000d9 /* plasmic-token: YRDkLQhbv */;
+  line-height: 1;
+}
+.box__bfMn {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__bfMn > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.box__bfMn > :global(.__wab_flex-container) > *,
+.box__bfMn > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.box__zZhxM {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+  color: #000000d9 /* plasmic-token: YRDkLQhbv */;
+}
+.box__uuKmE {
+  line-height: 1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 32px;
+}

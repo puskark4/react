@@ -1,0 +1,189 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.hero23 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  min-width: 0;
+  padding: 64px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .hero23 {
+    padding: 128px 32px;
+  }
+}
+.background {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, #00000080 0%, transparent 100%), #5856d6;
+}
+.foreground {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 960px;
+}
+.foreground > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 48px);
+  height: calc(100% + 48px);
+}
+.foreground > :global(.__wab_flex-container) > *,
+.foreground > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 48px;
+}
+.box__ms5Oj {
+  display: flex;
+  flex-direction: column;
+}
+.box__ms5Oj > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.box__ms5Oj > :global(.__wab_flex-container) > *,
+.box__ms5Oj > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.box__nxdYw {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.h2__hWsSq {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+  line-height: 1;
+  height: auto;
+}
+.box__dVNiu {
+  font-size: 20px;
+  color: #ffffff80 /* plasmic-token: QXNTCah6m */;
+  line-height: 28px;
+  height: auto;
+}
+.box__b243L {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 960px;
+}
+.box__b243L > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 48px);
+  height: calc(100% + 48px);
+}
+.box__b243L > :global(.__wab_flex-container) > *,
+.box__b243L > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 48px;
+}
+.box__lQiCr {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__lQiCr > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 48px);
+  width: calc(100% + 48px);
+}
+.box__lQiCr > :global(.__wab_flex-container) > *,
+.box__lQiCr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 48px;
+}
+.valueprop__maGlY:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box__obNoM {
+  color: #ffffff80 /* plasmic-token: QXNTCah6m */;
+}
+.svg__bvAtR {
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.svg__c90Wy {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.valueprop__x99Bz:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box__pmgIx {
+  color: #ffffff80 /* plasmic-token: QXNTCah6m */;
+}
+.svg__s2X81 {
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.svg__csRq0 {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.valueprop___5OHbJ:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box__zKWj {
+  color: #ffffff80 /* plasmic-token: QXNTCah6m */;
+}
+.svg__gcTv1 {
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.svg__zkz14 {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.valueprop__kt9XH:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box___9PojP {
+  color: #ffffff80 /* plasmic-token: QXNTCah6m */;
+}
+.svg___4YadC {
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}
+.svg__b8Igh {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #ffffff /* plasmic-token: s-CA2Bfly */;
+}

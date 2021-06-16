@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #e5e5ea;
+}
+.slotChildren22 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #05050599 /* plasmic-token: _YBwsw1zZ */;
+}

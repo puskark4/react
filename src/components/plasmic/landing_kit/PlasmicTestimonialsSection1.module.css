@@ -1,0 +1,110 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 64px;
+  background: #f2f2f7;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding: 128px 32px;
+  }
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.box > :global(.__wab_flex-container) > *,
+.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .box > :global(.__wab_flex-container) {
+    flex-direction: column;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .box > :global(.__wab_flex-container) > *,
+  .box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 0px;
+  }
+}
+.testimonial__snNLa:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.img___50Pl5 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+.testimonial__q3Pe6:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.img__r2301 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+.testimonial__qe99T:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box__fEfHs {
+  height: auto;
+}
+.box__eZtWr {
+  height: auto;
+}
+.img__pospi {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: auto;
+  border-radius: 32px;
+}
+.testimonial__cF25:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.box__ifm70 {
+  height: auto;
+}
+.img__tqUej {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
